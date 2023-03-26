@@ -1,0 +1,12 @@
+Summary
+This is a conesecutive 3 hour challange, to replicate the base design of: 
+https://www.arduino.cc/
+I'm going to try and spend less time on the header today.
+started at 0830 will end at 1130.
+
+Overall this one went well, but it's very rough, i would have liked to develope the interactivy 
+more, same for css, spacing, hover links drop down menus etc. I could improve alot of that with 
+another hour or so, i know it would take me a while to do the drop down menus.
+
+- It seems most pages use <a> link over the top of <div> instead of buttons, within a header at 
+least.

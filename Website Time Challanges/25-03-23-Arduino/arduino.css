@@ -1,0 +1,173 @@
+:root {
+    --arduinoBlue:rgb(0, 129, 132);
+    --arduinoLightBlue:#9de2df;
+    --arduinoDarkBlue: #005c5f;
+    --arduinoWhite: rgb(236, 241, 241);
+    --arduinoOrange: #e67e22;
+    --arduinoBrown: #bcac99;
+    --arduinoGrey: #95a5a6;
+}
+html{
+    color:white;
+    font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 14px;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+a,a:link,a:visited,a:active{
+    text-decoration: none;
+    color:white;    
+}
+
+.headerWpr-cs{
+    background-color: var(--arduinoBlue);
+    width: 100%;
+}
+.headerWpr-cs > * > * > button, .headerWpr-cs > * > * > div {
+    border-top:hidden;
+    border-right: white solid 1px;
+    border-bottom: hidden;    
+    border-left: hidden;
+    color:white;
+    font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+    font-size: 10.5px;
+
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 14px;
+    
+    height: 100%;
+    border-radius: 0;
+    background-color: rgba(0, 130, 132, 0);
+}
+.header01-cs{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 42px;
+    border-bottom: solid var(--arduinoLightBlue) 0.01em;
+
+}
+.header02-cs{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    height: 57px;
+    width: 100%;
+}
+.gridWpr-cs{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-flow: row;
+    width: 1200px;
+}
+.column-cs{
+    display: flex;
+    flex-flow: column;
+}
+.column-cs > * {
+    border: var(--arduinoBlue) solid 1px;
+    width: 345px;
+    height: 223px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color:var(--arduinoDarkBlue);
+}
+.column-cs > .shortContent-cs {
+    height: 28px;
+    padding: 10px 20px 10px 20px;
+}
+.column-cs > .socialMediaLinksWpr-cs > div, img{
+    height: 28px;
+    margin-bottom: 4px;
+    color: var(--arduinoDarkBlue);
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    
+}
+.column-cs > .socialMediaLinksWpr-cs > div > img{
+    height: 28px;
+    margin-right: 10px;
+}
+.grid-cs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px;
+    margin: 0 -10px 0 10px;
+    width: calc(66.66% - 10px);
+    padding-left: 10px;
+    justify-items: center;
+    row-gap: 20px;
+}
+.grid-cs > * {
+    background-color: var(--arduinoDarkBlue);
+    border: var(--arduinoOrange) solid 1px;
+    width: 345px;
+    height: 420px;
+}
+
+.grid-cs > *:nth-child(3n-1) {
+    background-color: var(--arduinoGrey);
+}
+.grid-cs > *:nth-child(3n) {
+    background-color: var(--arduinoOrange);
+}
+
+.footerWpr-cs{
+    background-color: var(--arduinoBlue);
+}
+.footerRow-cs{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+#footerRow01_id{
+    border-bottom: white solid 1px;
+    justify-content: space-between;
+}
+#footerRow01_id > button{
+    border:hidden;
+    border-left: white solid 1px;
+    background-color: #005c5f00;
+    font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 14px;
+    color: white;
+    position: relative;
+
+}
+#footerRow02_id{
+    border-bottom: white solid 1px;
+    justify-content: space-between;
+}
+#footerRow02_id > .helpLinksGrid-cs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10px 10px 10px 10px;
+    grid-auto-flow: column;
+    gap: 40px;
+}
+.footerSocialMediaWpr-cs > div{
+    display: flex;
+    flex-flow: row;
+}
+.footerSocialMediaWpr-cs > div > {
+    display: flex;
+    flex-flow: row;
+}
+#footerRow03_id{
+    justify-content: space-between;
+}

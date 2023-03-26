@@ -1,0 +1,182 @@
+:root{
+    --nexusBlack:rgb(16, 16, 16);
+    --nexusDarkGrey:rgb(45, 45, 45);
+    --nexusGrey:rgb(97, 97, 97);
+    --nexusOrange: #D98F40;
+    --nexusLightOrange: #dfa05d;
+}
+
+html{
+    font-family: sans-serif;
+    background: url(../Background.png) no-repeat center center;
+    object-fit:fill
+}
+body{
+    margin:0%;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+.header-cs{
+    height: 55px;
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+}
+.logoLink-cs{
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center; 
+
+}
+    .logo-cs{
+        height: 50%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+.dropDownMenu-cs{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--nexusBlack);
+    font-size: small;
+    color:white;
+    height: 100%;
+    width: 10em;
+}
+.dropDownMenu-cs:hover{
+    background-color: var(--nexusGrey);
+}
+.searchBar-cs{
+    height: 2em;
+}
+.searchBtn-cs{
+    height: 2em;
+}
+.loginBtn-cs{
+    min-width: fit-content;
+    border: solid var(--nexusOrange) 0.1em;
+    background-color: var(--nexusBlack);
+    color: white;
+    height: 70%;
+    padding: 0 1em 0 1em;
+    font-size: medium;
+    margin: 0 0 0 1em;
+}
+.loginBtn-cs:hover{
+    background-color: var(--nexusOrange);
+}
+.registerBtn-cs{
+    min-width: fit-content;
+    border: solid var(--nexusOrange) 0.1em;
+    background-color: var(--nexusOrange);
+    color: white;
+    height: 70%;
+    padding: 0 1em 0 1em;
+    font-size: medium;
+    margin: 0 5% 0 1em; 
+}
+.registerBtn-cs:hover{
+    background-color: var(--nexusLightOrange);
+}
+.menu-cs{
+    z-index: 5;
+    width: 100%;
+    height: 15em;
+    background-color: var(--nexusGrey);
+    visibility: collapse;
+}
+.welcomeBanner-cs{
+    background-color: var(--nexusGrey);
+    width:55em;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2em 10em 2em 10em;
+}
+.welcomeBanner-cs > h1{
+    color: white;
+
+    text-align: center;
+}
+.welcomeBanner-cs > p{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+.welcomeBanner-cs > p > a{
+    color: var(--nexusOrange);
+    text-decoration: none;
+}
+.filesBtn-cs{
+    height: 2em;
+}
+.gamesGridWpr-cs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 13em 13em;
+    width: 73em;
+    gap: 1em;
+    padding:0 1em 0 1em;
+    margin-top: 10em;
+}
+.gameGridContent-cs{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2em;
+    grid-template-rows: 20fr 3fr 1fr;
+    
+}
+.gameGridContent-cs:hover{
+    cursor: pointer;
+}
+
+.gameGridContentImg-cs{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    grid-column: 1 / 3;
+    grid-row: 1/2;
+
+}
+.gridButton-cs{
+    background-color: var(--nexusDarkGrey);
+    color: white;
+    width: 2em;
+    aspect-ratio: 1/1;
+    border: white solid 0.1em;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: end;
+
+}
+.gridButton-cs:hover{
+    background-color: var(--nexusOrange);
+}
+.gridContentTitle-cs{
+    font-size: large;
+    color: White;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+
+    margin: 0%;
+}
+.gridContentStats-cs{
+    font-size: medium;
+    color: var(--nexusDarkGrey);
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    margin: 0%;
+}

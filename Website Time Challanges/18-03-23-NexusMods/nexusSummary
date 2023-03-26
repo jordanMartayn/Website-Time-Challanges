@@ -1,0 +1,17 @@
+Summary:
+
+This one was modeled after the Nexus Mods page:
+https://www.nexusmods.com/
+
+it ran a total of approximatly 3 hours, maybe 30mins extra. I got highly distracted during this 
+one and it ran over about 3 days.
+
+notes:
+-It seems tha headers and footers are a common aspect across most pages, so having a fast way to
+do them would be best.
+-seems drop down menus are very common too, need to come up with a good way it implement them.
+-If you want a background image, its best to just use a seperate element don't use background url.
+-Seems best to put all your header elements in a wrapper.
+-i spent most time on the header in this one, and wasted some time trying to implement the drop
+down.
+-overlapping elements is best done with grids.
